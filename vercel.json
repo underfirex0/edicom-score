@@ -10,19 +10,19 @@
   "rewrites": [
     {
       "source": "/v1/:path*",
-      "destination": "/api/index"
+      "destination": "/api/index?__p=/v1/:path*"
     },
     {
       "source": "/health",
-      "destination": "/api/index"
+      "destination": "/api/index?__p=/health"
     },
     {
       "source": "/docs",
-      "destination": "/api/index"
+      "destination": "/api/index?__p=/docs"
     },
     {
       "source": "/openapi.json",
-      "destination": "/api/index"
+      "destination": "/api/index?__p=/openapi.json"
     }
   ],
   "headers": [
