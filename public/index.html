@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Edicom Score Entreprise</title>
+<meta name="description" content="Score de santé financière et statut d'activité des entreprises marocaines.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%230B2545'/%3E%3Crect x='6' y='20' width='4' height='6' fill='%23C92A2A'/%3E%3Crect x='11' y='16' width='4' height='10' fill='%23E8590C'/%3E%3Crect x='16' y='12' width='4' height='14' fill='%23F2A900'/%3E%3Crect x='21' y='8' width='4' height='18' fill='%231E9E5A'/%3E%3C/svg%3E">
+<link rel="preload" href="/static/fonts/bricolage-grotesque-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/static/fonts/ibm-plex-sans-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/static/app.css">
+</head>
+<body>
+<a class="skip" href="#view">Aller au contenu</a>
+<header class="top" id="top">
+  <div class="wrap top-in">
+    <a class="brand" href="#/" aria-label="Edicom Score Entreprise, accueil">
+      <svg width="26" height="26" viewBox="0 0 32 32" aria-hidden="true"><rect width="32" height="32" rx="7" fill="#0B2545"/><rect x="6" y="20" width="4" height="6" fill="#E26B6B"/><rect x="11" y="16" width="4" height="10" fill="#F08A4B"/><rect x="16" y="12" width="4" height="14" fill="#F5C443"/><rect x="21" y="8" width="4" height="18" fill="#4CC38A"/></svg>
+      <span class="brand-name">Edicom</span><span class="brand-sub">Score Entreprise</span>
+    </a>
+    <nav class="nav" aria-label="Navigation principale">
+      <a href="#/" data-nav="home">Accueil</a>
+      <a href="#/entreprises" data-nav="list">Entreprises</a>
+      <a href="#/donnees" data-nav="data">Données</a>
+      <a href="#/aide" data-nav="help">Aide</a>
+    </nav>
+    <div class="top-search" id="topSearch"></div>
+    <button class="iconbtn" id="keyBtn" type="button" title="Clé d'accès" aria-label="Clé d'accès" hidden>
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="8" cy="15" r="4"/><path d="M11 12l9-9M16 7l3 3M14 9l2 2"/></svg>
+    </button>
+  </div>
+</header>
+<main id="view" tabindex="-1"></main>
+<footer class="foot"><div class="wrap" id="foot"></div></footer>
+<div id="modal-root"></div>
+<div id="toast-root" aria-live="polite"></div>
+<script src="/static/app.js"></script>
+</body>
+</html>

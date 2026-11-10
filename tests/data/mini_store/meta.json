@@ -1,0 +1,56 @@
+{
+ "fy": 2019,
+ "n_firms": 3787,
+ "n_scorable": 3697,
+ "medians": {
+  "headroom": 1.1923173249999999,
+  "autonomy": 0.24074264282864763,
+  "assoc": 0.2718704903831752,
+  "fr_ta": 0.12362328521332278,
+  "current": 1.1561003472166291,
+  "roa": 0.009337351856170004,
+  "re_ta": 0.03285180130754602,
+  "tn_ta": 0.040869945219214596
+ },
+ "class_counts": {
+  "A": 1141,
+  "E": 876,
+  "B": 723,
+  "D": 498,
+  "C": 459,
+  "NR": 90
+ },
+ "status_counts": {
+  "ACTIVE": 1554,
+  "PROBABLE": 1260,
+  "VERIFY": 661,
+  "INACTIVE": 312
+ },
+ "reconfirm_rate": 0.5327391155296538,
+ "recent_window": 3,
+ "observed_adverse_rate": {
+  "A": 0.028,
+  "B": 0.041,
+  "C": 0.142,
+  "D": 0.457,
+  "E": 0.92
+ },
+ "backtest": "2018→2019",
+ "quality": [
+  {
+   "year": 2018,
+   "rows": 3787,
+   "actif_missing": 50,
+   "identity_FR_BFR_TN": 0.985014717687985,
+   "balance_actif_passif": 1.0
+  },
+  {
+   "year": 2019,
+   "rows": 3787,
+   "actif_missing": 37,
+   "identity_FR_BFR_TN": 0.9834666666666667,
+   "balance_actif_passif": 0.9997333333333334
+  }
+ ],
+ "built_at": "2026-11-10T11:32:46"
+}
